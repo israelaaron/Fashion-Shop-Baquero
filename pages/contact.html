@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/styles.css">    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <a href="../index.html"><img src="../images/logo.jpg" class="logo" alt="main logo"></a>         
+                <ul class="menuList">
+                    <li><a href="../pages/new.html">New</a></li>
+                    <li><a href="../pages/women.html">Women</a></li>
+                    <li><a href="../pages/men.html">Men</a></li>
+                    <li><a href="../pages/outlet.html">Outlet</a></li>
+                    <li><a href="../pages/contact.html">Contact</a></li>
+                </ul>
+            </div>    
+    </header>
+    <h1>Contact us</h1>
+    <div id="formcont">
+        <form action="" method="post">
+            <fieldset>
+                <legend>Feedback</legend>
+                <p>Full name:</p>
+                <input type="text" placeholder="Full name...">
+                <p>Email:</p>
+                <input type="email" placeholder="Email...">
+                <br>
+                <br>
+                <label for="reasons">Reason:</label>
+                <select name="reasons">
+                    <option value="clothing">Clothing</option>
+                    <option value="payment">Payment</option>
+                    <option value="delivery">Delivery</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+                <p><label for="message">Your message:</label></p>
+                <textarea name="message" rows="5" cols="200"></textarea>
+                <br>
+                <br>
+                <input type="checkbox" name="agreement">
+                <label for="agreement">I agree to receive news via e-mail</label>
+                <br>
+                <br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </fieldset>
+        </form>
+    </div>
+    <footer>
+        &#169; 2022 Fashion Shop
+    </footer>
+</body>
+</html>
