@@ -128,11 +128,6 @@ body {
     max-width: 34%;
 }
 
-.gallery img:hover {
-    transition: 200ms;
-    transform: scale(1.04)  
-}
-
 .table {
     display: flex;
     align-items: center;
@@ -250,14 +245,6 @@ h1 {
     font-weight: 50;
     border: solid 2px #F3EED9;
     top: -30px;
-}
-
-.menuList li:hover {
-    transition: 300ms;
-    background-color: #66514f;
-    transform: scale(1.13);
-    text-shadow: 0 0 3px #F3EED9;
-    box-shadow: 0 5px 16px #574240;
 }
     
 ul {
